@@ -1,4 +1,4 @@
-name: dinov3
+name: fssdino
 channels:
   - defaults
   - conda-forge
@@ -165,4 +165,4 @@ dependencies:
       - tzdata==2025.3
       - urllib3==2.6.3
       - xformers==0.0.33.post2
-prefix: /home/jovyan/.conda/envs/dinov3
+prefix: /home/jovyan/.conda/envs/fssdino

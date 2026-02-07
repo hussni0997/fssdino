@@ -380,7 +380,7 @@ def run_oracle_search(cfg, device):
     
     print("\nINDIVIDUAL METRIC SELECTION PERFORMANCE:")
     print("-" * 65)
-    print(f"{'Metric':<15} | {'mIoU':<8} | {'vs Last Layer':<15} | {'vs Oracle'}")
+    print(f"{'Metric':<15} | {'mIoU':<8} | {'vs Oracle'}")
     print("-" * 65)
     for metric, score in sorted(individual_results.items(), key=lambda x: x[1], reverse=True):
         diff_oracle = score - oracle_miou

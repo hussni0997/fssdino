@@ -16,7 +16,8 @@ This includes:
 * Installing Python dependencies:
 
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate fssdino
 ```
 
 Make sure all steps in `setup.md` and the commands above are completed before running any experiments.
