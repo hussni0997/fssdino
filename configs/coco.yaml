@@ -1,0 +1,15 @@
+
+model_name: "facebook/dinov3-vitb16-pretrain-lvd1689m"
+benchmark: coco
+instances_path: /home/jovyan/data/coco/annotations/instances_val2014.json
+img_dir: /home/jovyan/data/coco/train_val_2017/
+work_dir: ./coco20i/base
+nshot: 1
+kway: 1
+n_clusters: 5
+n_folds: 4
+val_fold_idx: 0
+seed: 0
+num_episodes: 1000
+img_size: 512
+vis_th: 0.5

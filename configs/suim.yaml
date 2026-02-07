@@ -1,0 +1,12 @@
+
+model_name: "facebook/dinov3-vitb16-pretrain-lvd1689m"
+benchmark: suim
+datapath: /home/jovyan/data/cdfss/suim 
+work_dir: ./cdfss_suim/base
+nshot: 1
+kway: 1
+n_clusters: 5
+seed: 0
+num_episodes: 600
+img_size: 512
+vis_th: 0.5
